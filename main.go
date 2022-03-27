@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	//DE
 	pdf := gofpdf.New("P", "mm", "A4", "")
 	pdf.AddPage()
 
